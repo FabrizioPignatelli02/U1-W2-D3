@@ -117,9 +117,12 @@ console.log("ES.1 Array vuoto:",characters);
 
 for(let i=0; i<starWarsCharacters.length; i++)
 {
-  const singleCharacters = starWarsCharacters[i];
-  console.log("ES.2 Nomi singoli:",singleCharacters.name);
+
+  const nomiCaratteri = starWarsCharacters[i].name;
+  characters.unshift(nomiCaratteri);
 }
+
+console.log("Array nomi:",characters);
 
 
 
@@ -288,7 +291,6 @@ console.log("Es.8 Personaggi Robot:",robotGender);
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "characters" le stringhe corrispondenti a personaggi con lo stesso nome.
   Una volta fatto crea un console.log per controllare la proprietà length di "characters" prima e dopo l'operazione.
 */
-
 
 
 
