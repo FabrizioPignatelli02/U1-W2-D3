@@ -119,10 +119,10 @@ for(let i=0; i<starWarsCharacters.length; i++)
 {
 
   const nomiCaratteri = starWarsCharacters[i].name;
-  characters.unshift(nomiCaratteri);
+  characters.push(nomiCaratteri);
 }
 
-console.log("Array nomi:",characters);
+console.log("Es.2 Array nomi:",characters);
 
 
 
@@ -132,13 +132,13 @@ console.log("Array nomi:",characters);
 
 const femaleCharacters = [];
 
-// femaleCharacters.unshift("Ciao");
+// femaleCharacters.push("Ciao");
 for (let i=0; i<starWarsCharacters.length; i++)
 {
   const genderChar = starWarsCharacters[i].gender;
   if(genderChar === "female")
   {
-    femaleCharacters.unshift(starWarsCharacters[i]);
+    femaleCharacters.push(starWarsCharacters[i]);
   }
 }
 
@@ -174,19 +174,19 @@ for(let i=0; i<starWarsCharacters.length; i++)
   const eyeChar = starWarsCharacters[i].eye_color;
   switch(eyeChar){
     case "blue":
-      eyeColor.blue.unshift(starWarsCharacters[i]);
+      eyeColor.blue.push(starWarsCharacters[i]);
       break;
     case "yellow":
-        eyeColor.yellow.unshift(starWarsCharacters[i]);
+        eyeColor.yellow.push(starWarsCharacters[i]);
         break;
     case "brown":
-      eyeColor.brown.unshift(starWarsCharacters[i]);
+      eyeColor.brown.push(starWarsCharacters[i]);
       break;
     case "red":
-      eyeColor.red.unshift(starWarsCharacters[i]);
+      eyeColor.red.push(starWarsCharacters[i]);
       break;
     case "blue-gray":
-      eyeColor.bluegray.unshift(starWarsCharacters[i]);
+      eyeColor.bluegray.push(starWarsCharacters[i]);
       break;
   }
 }
@@ -266,13 +266,13 @@ console.log("Es.6 Massa totale:",massaTotale);
 
 const robotGender = [];
 
-// femaleCharacters.unshift("Ciao");
+// femaleCharacters.push("Ciao");
 for (let i=0; i<starWarsCharacters.length; i++)
 {
   const genderCharRobot = starWarsCharacters[i].gender;
   if(genderCharRobot === "n/a")
   {
-    robotGender.unshift(starWarsCharacters[i]);
+    robotGender.push(starWarsCharacters[i]);
   }
 }
 
@@ -300,7 +300,7 @@ console.log("Es.8 Personaggi Robot:",robotGender);
 // for (let i=0; i<femaleCharacters.length; i++)
 // {
 //   const nameFemale = femaleCharacters[i].name;
-//   nomiFemminili.unshift(nameFemale);
+//   nomiFemminili.push(nameFemale);
 // }
 // console.log("Nomi Femminili:", nomiFemminili);
 
