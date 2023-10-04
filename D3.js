@@ -106,7 +106,7 @@ console.log(starWarsCharacters);
 /* ESERCIZIO 1
   Crea una variabile chiamata "characters" e assegnale un array vuoto
 */
-const characters = [];
+let characters = [];
 console.log("ES.1 Array vuoto:",characters);
 
 /* ESERCIZIO 2
@@ -292,8 +292,24 @@ console.log("Es.8 Personaggi Robot:",robotGender);
   Una volta fatto crea un console.log per controllare la proprietà length di "characters" prima e dopo l'operazione.
 */
 
+// console.log("Grandezza characters:",characters.length);
 
 
+// const nomiFemminili = [];
+
+// for (let i=0; i<femaleCharacters.length; i++)
+// {
+//   const nameFemale = femaleCharacters[i].name;
+//   nomiFemminili.unshift(nameFemale);
+// }
+// console.log("Nomi Femminili:", nomiFemminili);
+
+
+
+
+
+// console.log("Array diminuito:",characters);
+// console.log("Grandezza characters:",characters.length);
 
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
